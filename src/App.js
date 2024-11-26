@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import MyComponentTest from './test';
+import Cheat from './cheat';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
+          <MyComponentTest/>
+          <Cheat/>
         </a>
       </header>
     </div>
