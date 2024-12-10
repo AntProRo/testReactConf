@@ -1,9 +1,14 @@
 import React from 'react';
+import Obfuscate from 'react-obfuscate';
 
 const Cheat = () => {
     return (
         <div>
-        New cheat
+            <Obfuscate
+            linkText =" New cheat"
+         
+     
+        />
         </div>
     );
 };
